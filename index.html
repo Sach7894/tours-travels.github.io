@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tours and Travels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Tours & Travels</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Destinations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Domestic</a>
+              <a class="dropdown-item" href="#">International</a>
+            </div>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="#registermodal" class="btn text-white" data-toggle="modal"
+            >Register</a
+          >
+          <a href="#loginmodal" class="btn text-white" data-toggle="modal"
+            >Login</a
+          >
+        </span>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-white text-center">
+      <div class="container">
+        <h1 class="display-4">Explore the World with Us</h1>
+        <p class="lead">Discover Your Next Adventure</p>
+      </div>
+    </div>
+
+    <section id="about" class="container my-5">
+      <h2>About Us</h2>
+      <p>
+        We are a leading travel agency dedicated to providing exceptional travel
+        experiences. Our mission is to make travel accessible and enjoyable for
+        everyone.
+      </p>
+      <p>
+        We offer a wide range of services including personalized travel
+        itineraries, group tours, and exclusive packages. Our team of experts is
+        committed to ensuring your trip is unforgettable.
+      </p>
+    </section>
+
+    <section id="gallery" class="container my-5">
+      <h2>Gallery</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img
+            src="https://m.greaterkashmir.com/sortd-service/imaginary/v22-01/jpg/large/high?url=Z3JlYXRlcmthc2htaXItc29ydGQtcHJvLXByb2Qtc29ydGQvbWVkaWFlMThmNzk2MC05M2E0LTExZWUtYWUzZC03NTNmYzZkNDBkNTMuanBn"
+            class="img-fluid"
+            alt="Destination 1"
+          />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img
+            src="https://images.unsplash.com/photo-1672191294725-f80b074c4db3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/350x250"
+            class="img-fluid"
+            alt="Destination 2"
+          />
+        </div>
+        <div class="col-md-4 mb-4">
+          <img
+            src="https://i.pinimg.com/736x/84/70/94/847094a5d2df67f4fc7a7a6b77bcfe7b.jpg"
+            class="img-fluid"
+            alt="Destination 3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="slider" class="container my-5">
+      <h2>Featured Destinations</h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/image1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Destination 1</h5>
+              <p>
+                Rajasthan is one of the most popular tourist destinations in
+                India, for both domestic and international tourists. Rajasthan
+                attracts tourists for its historical forts, palaces, art and
+                culture with its slogan "Padharo Mhare Desh (Welcome to my
+                land.)" The capital city, Jaipur, also known as Pink City, is a
+                very popular tourist destination and is a part of the Golden
+                Triangle. The Walled City of Jaipur is only the second Indian
+                city to be recognized as a UNESCO World Heritage Site,after
+                Ahmedabad.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/image4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Raigad</h5>
+              <p>
+                Raigad is one of the historically significant forts in
+                Maharashtra. Nestled amid the picturesque Sahyadri mountain
+                ranges in Maharashtra, the Raigarh Fort stands tall as a symbol
+                of historical grandeur and architectural brilliance. This
+                ancient fort, with its rich heritage and breathtaking views,
+                beckons history enthusiasts and nature lovers alike. In this
+                article, we will take you on a journey to discover the
+                captivating essence of the Raigarh Fort, covering its history,
+                location, timings, and the fascinating stories that lie within
+                its walls.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="Images/image2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Shaniwar Wada</h5>
+              <p>
+                Shaniwar Wada in Pune is a historical palace and fort that
+                chronicles the glory and grandeur of the Maratha Empire. This
+                old mansion boasts of a history of 287 years and was the seat of
+                the Peshwas, who were the Prime Ministers to the Maratha rulers.
+                It served as a melting pot of culture and politics until the
+                Peshwas lost the Wada to the British in 1818.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <footer id="contact" class="text-center text-lg-start mt-5">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Us</h5>
+            <p>
+              <i class="fas fa-phone"></i> Phone: +91 0123456789<br />
+              <i class="fas fa-envelope"></i> Email: toursandtravels@gmail.com<br />
+              <i class="fas fa-map-marker-alt"></i> Address: Block no 4,MIDC Pune,Maharashtra,India
+            </p>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h2>Follow Us</h2>
+            <div class="socials">
+              <a href="https://www.facebook.com/toursandtravels" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/toursandtravels" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/toursandtravels" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/toursandtravels" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/toursandtravels/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/toursandtravels" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <style>           
+                .social {
+                    margin-top: 20px;
+                }
+
+                .social a {
+                    color: #333;
+                    font-size: 1.5rem;
+                    margin-right: 10px;
+                    transition: color 0.3s ease;
+                }
+
+                .social a:hover {
+                    color: #f39c12;
+                }
+                .socials a {
+                    font-size: 1.5rem;
+                    margin-right: 10px;
+                    color: #fff;
+                    transition: color 0.3s ease;
+                }
+
+                .socials a:hover {
+                    color: #f39c12;
+                }
+        </style>
+
+      </div>
+      <div class="footer-bottom">
+        <hr style="border: 1px solid white;">
+          Copyrights &copy; <span id=2024></span>toursandtravels | All rights reserved
+      </div>
+  </div>
+
+      </div>
+    </footer>
+
+    <div class="modal" tabindex="-1" id="registermodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register Here</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputFullName">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputFullName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputContact">Contact No</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleInputContact"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputAge">Age</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleInputAge"
+                />
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success">Register</button>
+              </div>
+              <p class="text-center">
+                Already have an account?<a
+                  href="#loginmodal"
+                  data-toggle="modal"
+                  data-dismiss="modal"
+                >
+                  Login Here</a
+                >
+              </p>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="loginmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Login Here</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success" align="center">
+                  Login
+                </button>
+              </div>
+              <p class="text-center">
+                Don't have an account?<a
+                  href="#registermodal"
+                  data-toggle="modal"
+                  data-dismiss="modal"
+                >
+                  Register Here</a
+                >
+              </p>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      .navbar-nav .nav-link {
+        color: white !important;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #ddd !important;
+      }
+
+      .jumbotron {
+        background-image: url("https://wallpapers.com/images/high/1200x480-kame-house-e8ob5xhjnp7q9ei8.webp");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      }
+
+      form {
+        max-width: 500px;
+        margin: auto;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+      }
+
+      footer a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        color: #ddd;
+      }
+
+      
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+  </body>
+</html>
